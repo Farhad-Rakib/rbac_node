@@ -1,6 +1,6 @@
 //express initialize
-const express = require('express');
+const express = require("express");
 const app = express();
 
 //database connection
-const dbConnect = require('./configs/db/connect');
+const db = require("./configs/db/connect");
